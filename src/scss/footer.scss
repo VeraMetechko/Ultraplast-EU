@@ -1,0 +1,58 @@
+.footer {
+  margin-top: 18.75rem;
+  background: #457DAB;
+  width: 100%;
+  padding: 2.5rem 0 1rem;
+}
+.footer-networks {
+ padding-bottom: 0.5rem;
+}
+.footer-networks-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer-networks-icons__item {
+  text-align: center;
+  cursor: pointer;
+  transition: .2s;
+  margin-right: 2rem;
+  margin-bottom: 0.625rem;
+}
+.footer-networks-icons__item:last-child {
+  margin-right: 0;
+}
+.footer .fa-brands {
+ font-size: 1.5rem;
+ color: rgba(255,255,255,0.80);
+ 
+}
+.footer .fa-brands:hover {
+  color: #96BD2A;
+  transform: scale(1.2);
+ }
+
+.fa-brands{
+font-family: "Font Awesome 6 Brands";
+}
+.facebook::after {
+content: "\f39e";
+}
+.twitter::after {
+content:"\f099";
+}
+.Instagram::after {
+content:"\f16d";
+}
+.LinkedIn::after {
+content:"\f0e1";
+}
+
+.footer-text {
+  margin: auto;
+  text-align: center;
+  color: rgba(255,255,255,0.80);
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 0.875rem;
+}
